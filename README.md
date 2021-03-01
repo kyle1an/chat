@@ -1,13 +1,9 @@
-# Real-time Chat App Demo
+# React Chat Application
 
-> A chat app example using Express.js, MongoDB and Socket.io
+## Client
 
-## Build Setup
+Client folder is utilizing create-react-ap and socket.io-client. Use `yarn start` to load the application.
 
-``` bash
-# install dependencies
-npm install
+## Server
 
-# serve at localhost:3000
-node main
-```
+The server is powered by Nodejs and Express. Use `npm start` to run the server. For fast real-time chat messages, the chat application is running under Socket.io. 
