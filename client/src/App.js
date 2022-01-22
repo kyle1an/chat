@@ -4,6 +4,8 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 
 import {Join, Chat} from "./components";
 
+import "./css/main.css";
+
 const App = () => (
     <Router>
         <Route path="/" exact component={Join}/>
