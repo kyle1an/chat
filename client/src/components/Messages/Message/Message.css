@@ -5,63 +5,63 @@
     color: white;
     display: inline-block;
     max-width: 80%;
-  }
+}
 
-  .messageText {
+.messageText {
     width: 100%;
     letter-spacing: 0;
     float: left;
     font-size: 1.1em;
     word-wrap: break-word;
-  }
+}
 
-  .messageText img {
+.messageText img {
     vertical-align: middle;
-  }
+}
 
-  .messageContainer {
+.messageContainer {
     display: flex;
     justify-content: flex-end;
     padding: 0 5%;
     margin-top: 3px;
-  }
+}
 
-  .sentText {
+.sentText {
     display: flex;
     align-items: center;
-    font-family: -apple-system, Helvetica, sans-serif;
+    font-family: var(--sys-font-stack), -apple-system, Helvetica, sans-serif;
     color: #828282;
     letter-spacing: 0.3px;
-  }
+}
 
-  .pl-10 {
+.pl-10 {
     padding-left: 10px;
-  }
+}
 
-  .pr-10 {
+.pr-10 {
     padding-right: 10px;
-  }
+}
 
-  .justifyStart {
+.justifyStart {
     justify-content: flex-start;
-  }
+}
 
-  .justifyEnd {
+.justifyEnd {
     justify-content: flex-end;
-  }
+}
 
-  .colorWhite {
+.colorWhite {
     color: white;
-  }
+}
 
-  .colorDark {
+.colorDark {
     color: #353535;
-  }
+}
 
-  .backgroundBlue {
+.backgroundBlue {
     background: #2979FF;
-  }
+}
 
-  .backgroundLight {
+.backgroundLight {
     background: #F3F3F3;
-  }
+}

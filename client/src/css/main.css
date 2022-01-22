@@ -1,9 +1,9 @@
 :root {
-    --sys-font-stack: -apple-system, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', sans-serif;
+    --sys-font-stack: -apple-system, "system-ui", 'SF Pro Text', 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', sans-serif;
     --sys-font-stack-mono: 'SFMono-Regular', 'SF Mono', 'Ubuntu Mono', Consolas, 'DejaVu Sans Mono', Menlo, monospace;
 }
 
-html, body {
+html, body, input {
     font-family: var(--sys-font-stack);
 
     /*-moz-font-feature-settings: "smcp";*/
