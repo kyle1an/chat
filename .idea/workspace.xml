@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2f4eab5-790f-42f8-8aa1-52c89bc872fd" name="Default Changelist" comment="chg">
-      <change afterPath="$PROJECT_DIR$/client/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Chat/Chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Chat/Chat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/TextContainer/TextContainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/TextContainer/TextContainer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="d2f4eab5-790f-42f8-8aa1-52c89bc872fd" name="Default Changelist" comment="chg" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614574681762</updated>
       <workItem from="1614574683062" duration="52000" />
-      <workItem from="1642855841458" duration="5058000" />
+      <workItem from="1642855841458" duration="5972000" />
     </task>
     <task id="LOCAL-00001" summary="port chg">
       <created>1642856089215</created>
@@ -108,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642856379597</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chg">
+      <created>1642861082161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642861082161</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,11 +116,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="3a506caf-49e6-4dd3-be0f-6c3eb2d7911f">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/ian/Documents/GitHub/demo-app/server" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="3a506caf-49e6-4dd3-be0f-6c3eb2d7911f" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
