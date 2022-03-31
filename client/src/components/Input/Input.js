@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import "font-awesome/css/font-awesome.min.css";
+import 'font-awesome/css/font-awesome.min.css';
 
-import "./Input.css";
+import './Input.css';
 
 export const Input = ({ message, setMessage, sendMessage }) => (
     <form className="form">

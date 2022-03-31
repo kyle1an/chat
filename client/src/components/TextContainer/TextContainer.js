@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react';
 
-import onlineIcon from "../../icons/onlineIcon.png";
+import onlineIcon from '../../icons/onlineIcon.png';
 
-import "./TextContainer.css";
+import './TextContainer.css';
 
-export const TextContainer = ({users}) => (
+export const TextContainer = ({ users }) => (
     <div className="textContainer">
         <div>
             <h1>
                 Live Chat
-                <br/>
+                <br />
                 Application
             </h1>
             <h3>
-                created by tchellyang<br/>
-                using React, Express,<br/>
+                created by tchellyang<br />
+                using React, Express,<br />
                 Node, and Socket.io
             </h3>
         </div>
@@ -23,10 +23,10 @@ export const TextContainer = ({users}) => (
                 <h3>User Chatting</h3>
                 <div className="activeContainer">
                     <h2>
-                        {users.map(({name}) => (
+                        {users.map(({ name }) => (
                             <div key={name} className="activeItem">
                                 {name}
-                                <img alt="Online Icon" src={onlineIcon}/>
+                                <img alt="Online Icon" src={onlineIcon} />
                             </div>
                         ))}
                     </h2>
