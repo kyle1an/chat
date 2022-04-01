@@ -3,9 +3,9 @@ const express = require('express');
 const socketIo = require('socket.io');
 const cors = require('cors');
 
-const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
+const { addUser, removeUser, getUser, getUsersInRoom } = require('./src/users');
 
-const router = require('./router');
+const router = require('./src/router');
 
 const app = express();
 const server = http.createServer(app);
