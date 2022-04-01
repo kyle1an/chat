@@ -18,8 +18,8 @@ export const Chat = ({ location }) => {
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
     // const ENDPOINT = 'https://react-chat-page.herokuapp.com/';
-    // const ENDPOINT = 'https://tchel-demo.herokuapp.com';
-    const ENDPOINT = 'localhost:5001';
+    const ENDPOINT = 'https://tchel-demo.herokuapp.com';
+    // const ENDPOINT = 'localhost:5001';
 
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
