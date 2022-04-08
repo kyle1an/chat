@@ -22,7 +22,7 @@ export const Join = () => {
                 <div>
                     <input
                         placeholder="Room"
-                        className="joinInput mt-20"
+                        className="joinInput mt-5"
                         type="text"
                         onChange={(event) => setRoom(event.target.value)}
                     />
@@ -33,7 +33,7 @@ export const Join = () => {
                     }
                     to={`/chat?name=${name}&room=${room}`}
                 >
-                    <button className={"button mt-20"} type="submit">
+                    <button className={"button mt-5"} type="submit">
                         Sign In
                     </button>
                 </Link>
