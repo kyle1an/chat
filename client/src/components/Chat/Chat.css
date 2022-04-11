@@ -1,18 +1,12 @@
 .outerContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
-  /*background-color: #1A1A1D;*/
   background-color: #eee;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background: #FFFFFF;
-  border-radius: 8px;
   height: 60%;
   width: 35%;
 }

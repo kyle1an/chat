@@ -46,13 +46,13 @@ export const Chat = ({ location }) => {
   const sendMessage = (event) => {
     event.preventDefault();
 
-    if (message) socket.emit('sendMessage', message, () => setMessage(""));
+    if (message) socket.emit('sendMessage', message, () => setMessage(''));
   };
 
   return (
-    <div className="outerContainer">
+    <div className="outerContainer flex justify-center items-center justify-between rounded-[8px]">
       <TextContainer users={users} />
-      <div className="container">
+      <div className="container flex">
         <InfoBar room={room} />
         <Messages messages={messages} name={name} />
         <Input
