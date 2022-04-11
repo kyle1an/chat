@@ -8,9 +8,9 @@ export const Join = () => {
     const [room, setRoom] = useState("");
 
     return (
-        <div className="joinOuterContainer">
-            <div className="joinInnerContainer">
-                <h1 className="heading">Join</h1>
+        <div className="joinOuterContainer flex">
+            <div className="joinInnerContainer w-[90%] sm:w-1/5">
+                <h1 className="heading text-[2.5em] pb-2.5">Join</h1>
                 <div>
                     <input
                         placeholder="Name"
@@ -28,9 +28,7 @@ export const Join = () => {
                     />
                 </div>
                 <Link
-                    onClick={(e) =>
-                        !name || !room ? e.preventDefault() : null
-                    }
+                    onClick={(e) => !name || !room ? e.preventDefault() : null}
                     to={`/chat?name=${name}&room=${room}`}
                 >
                     <button className={"button mt-5"} type="submit">
