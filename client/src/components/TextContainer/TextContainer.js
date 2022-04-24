@@ -1,11 +1,7 @@
 import React from 'react';
 import onlineIcon from '../../icons/onlineIcon.png';
 import './TextContainer.css';
-import dayjs from 'dayjs'
 
-const localizedFormat = require('dayjs/plugin/localizedFormat');
-dayjs.extend(localizedFormat)
-const clock = dayjs().format('ddd, MMM D, YYYY h:mm:ss A')
 export const TextContainer = ({ users }) => (
   <div className="textContainer">
     <div>
@@ -17,7 +13,6 @@ export const TextContainer = ({ users }) => (
         created by tchellyang<br />
         using React, Express,<br />
         Node, and Socket.io
-        {/*{clock}*/}
       </h3>
     </div>
     {users ? (

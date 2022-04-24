@@ -12,7 +12,7 @@ export const Message = ({ message: { user, text }, name }) => {
   }
 
   return isSentByCurrentUser ? (
-    <div className="messageContainer flex justifyEnd">
+    <div className="messageContainer justifyEnd">
       <p className="sentText pr-10">{trimmedName}</p>
       <div className="messageBox backgroundBlue">
         <p className="messageText colorWhite">
@@ -21,7 +21,7 @@ export const Message = ({ message: { user, text }, name }) => {
       </div>
     </div>
   ) : (
-    <div className="messageContainer flex justifyStart">
+    <div className="messageContainer justifyStart">
       <div className="messageBox backgroundLight">
         <p className="messageText colorDark">{text}</p>
       </div>

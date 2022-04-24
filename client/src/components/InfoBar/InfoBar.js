@@ -6,12 +6,12 @@ import closeIcon from '../../icons/closeIcon.png';
 import './InfoBar.css';
 
 export const InfoBar = ({ room }) => (
-  <div className="infoBar flex items-center justify-between w-full h-[60px]">
-    <div className="leftInnerContainer mr-[5%] flex grow-[0.5] items-center">
-      <img className="mr-[5%]" src={onlineIcon} alt="online icon" />
+  <div className="infoBar">
+    <div className="leftInnerContainer">
+      <img className="onlineIcon" src={onlineIcon} alt="online icon" />
       <h3>{room}</h3>
     </div>
-    <div className="rightInnerContainer mr-[5%] flex grow-[0.5] justify-end">
+    <div className="rightInnerContainer">
       <a href="/">
         <img src={closeIcon} alt="close icon" />
       </a>

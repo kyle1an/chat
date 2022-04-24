@@ -5,7 +5,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import './Input.css';
 
 export const Input = ({ message, setMessage, sendMessage }) => (
-  <form className="form flex">
+  <form className="form">
     <input
       className="input"
       type="text"
