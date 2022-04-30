@@ -12,7 +12,7 @@ export const InfoBar = ({ room }) => (
       <h3>{room}</h3>
     </div>
     <div className="rightInnerContainer">
-      <a href="/">
+      <a href="/Users/ian/WebstormProjects/demo-app/public">
         <img src={closeIcon} alt="close icon" />
       </a>
     </div>
