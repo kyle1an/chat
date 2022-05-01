@@ -17,7 +17,7 @@ export const Chat = ({ location }) => {
   const [users, setUsers] = useState('');
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = 'https://tchel-demo.herokuapp.com';
+  const ENDPOINT = 'https://tchel-chat.herokuapp.com';
   // const ENDPOINT = 'localhost:5001';
 
   useEffect(() => {
